@@ -6,11 +6,52 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Assignment completed by Charles Looney 17 JAN 2025 Code-A-Long 1 -->
+    <p id="greeting">Some Paragraph</p>
     <script>
       var pet;
       let name;
       let lastname = "Smith";
       const PI = 3.14;
+
+      let fName = "Stitch";
+      let age = 25;
+      let length = 5.5;
+      let strLength = "5.5";
+      let isStudent = true;
+
+      console.log(typeof strLength);
+
+      let a = 5 + 3;
+      let b = "5" + "3";
+      let c = "5" + 3;
+      let e = 6 / 3;
+      let f = "Alice" / 3;
+      let g = "alice" * 6;
+      let h = "6" * 6;
+      let i = 7 % 2;
+
+      console.log(i);
+
+      let greeting = "Aloha " + fName + "!";
+      greeting += "You are " + age + " years old.";
+      console.log(greeting);
+      let altGreeting = `Aloha ${fName}! Age: ${age}`;
+      console.log(altGreeting);
+
+      document.getElementById("greeting").innerHTML = "<h1>Hello World</h1>";
+
+      let userAge = "Charlie";
+      console.log(userAge);
+
+      if (userAge) {
+        console.log("User age is truthy");
+      } 
+      
+      else {
+        console.log("User age is falsy");
+      } 
+
     </script>
   </body>
 </html>
